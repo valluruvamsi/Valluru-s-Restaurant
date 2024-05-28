@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurent Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <!------------Font Awesome Start------------------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!------------Font Awesome End---------------------------->
+</head>
+
+<body>
+  <!------------------Pre Loader Start-------------->
+  <div class="pageloader">
+    
+  </div>
+  <!------------------Pre Loader End--------------->
+
+  <!-----------------------------Header Start------------------------------->
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="logo">
+          <a href="#"> Valluru's Restaturant </a>
+        </div>
+        <button class="nav-toggler" type="button">
+          <span></span>
+        </button>
+
+        <nav class="nav">
+          <ul>
+            <li class="nav-item"><a href="#home">Home</a></li>
+            <li class="nav-item"><a href="#about">About</a></li>
+            <li class="nav-item"><a href="#our-menu">Our Menu</a></li>
+            <li class="nav-item"><a href="#testimonial">Testimonial</a></li>
+            <li class="nav-item"><a href="#team">Chefs</a></li>
+            <li class="nav-item"><a href="#footer">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-----------------------Header End-------------------------------->
+  <!-------------------- home section start --------------------------->
+  <section class="home-section" id="home">
+    <div class="home-bg"></div>
+    <div class="container" >
+      <div class="row min-vh-100 align-items-center">
+        <div class="home-text" data-aos="fade-up"  data-aos-duration="1000">
+          <h1>Valluru's Restaurant</h1>
+          <h4>Welcome to the world of Andhra food</h4>
+          <p>
+            Thappakunda try cheyandi
+          </p>
+          <a href="#about" class="btn">See More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------------------- home section end ----------------------------->
+
+  <!-------------------- About section start --------------------------->
+  <section class="about-section sec-padding" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2 data-title="" data-aos="fade-up">About Us</h2>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/pic-1.png" class="hero-img" />
+        <div class="about-text" data-aos="fade-right">
+          <h3>Welocme To Valluru's Restaturant</h3>
+          <br />
+
+          <p>
+            Andhra cuisine, from Andhra Pradesh, India, is known for its bold flavors
+             and spiciness, with key ingredients like rice, chilies, tamarind, curry leaves,
+              and mustard seeds. Popular dishes include Pulihora (tamarind rice), Pesarattu 
+              (green gram dosa), Gongura Pachadi (sorrel leaves chutney), Kodi Kura (spicy 
+              chicken curry), Andhra Chepala Pulusu (fish curry).
+          </p>
+          <br />
+
+          <p>
+            Andhra snacks and sweets are equally renowned, featuring items like Mirchi Bajji
+             (chili fritters), Punugulu (deep-fried fritters), and Ariselu (rice flour and jaggery sweet). 
+             Accompaniments like Avakaya (mango pickle) and Appadam (crispy lentil papad) are staples, enhancing
+              the meal experience with their distinct flavors.
+          </p>
+          <br />
+          <p>
+            The cuisine varies by region, with Rayalaseema known for fiery dishes, Coastal Andhra for seafood. Meals
+            are traditionally served on banana leaves during special occasions and are often elaborate, ending with
+            yogurt or buttermilk to cool the palate after 
+            the spicy fare.</p>
+          <a href="#our-menu" class="btn">Our Menu</a>
+        </div>
+
+        <div class="about-img" data-aos="fade-left">
+          <div class="img-box">
+            <img src="img/bg1.jpg" alt="images-about" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-------------------- About section end  --------------------------->
+  <!-----------------Menu Section Start------------>
+  <section class="menu-section sec-padding" id="our-menu">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2 data-title="order-now" data-aos="fade-up">Our Menu</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="menu-tabs" data-aos="fade-up">
+          <button type="button" class="menu-tab-item active" data-target="#lunch">
+            Veg
+          </button>
+          <button type="button" class="menu-tab-item" data-target="#dinner">
+            Non-Veg
+          </button>
+          <button type="button" class="menu-tab-item" data-target="#drinks">
+            Desserts
+          </button>
+          <button type="button" class="menu-tab-item" data-target="#dessert">
+            Drinks
+          </button>
+        </div>
+      </div>
+      <!---------------------lunch tab open----------------------------->
+      <div class="row menu-tab-content active" id="lunch">
+        <div class="row">
+          <!-----------------------------item1 lunch----------------------->
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="img/lunch1.jpg" style="height: 100px; width: 150px" />
+              <h3>Dal Fry and Gongura Chutney</h3>
+            </div>
+            <div class="menu-item-price">Rs.100.00</div>
+          </div>
+          <!-----------------------------item2 lunch----------------------->
+          <div class="menu-item"  data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="img/lunch3.jpg" style="height: 100px; width: 150px" />
+              <h3>Butter Roti</h3>
+            </div>
+            <div class="menu-item-price">$60.00</div>
+          </div>
+          <!-----------------------------item3 lunch----------------------->
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="img/lunch4.jpg" style="height: 100px; width: 150px" />
+              <h3>Paneer Butter Masala</h3>
+            </div>
+            <div class="menu-item-price">$160.00</div>
+          </div>
+          <!-----------------------------item4 lunch----------------------->
+          <div class="menu-item"  data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="img/lunch5.jpg" style="height: 100px; width: 150px" />
+              <h3>Jeera Rice</h3>
+            </div>
+            <div class="menu-item-price">$120.00</div>
+          </div>
+
+          <!-----------------------------item5 lunch----------------------->
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title"  >
+              <img src="img/lunch6.jpg" style="height: 100px; width: 150px" />
+              <h3>Palak Paneer</h3>
+            </div>
+            <div class="menu-item-price">$180.00</div>
+          </div>
+          <!-----------------------------item6 lunch----------------------->
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title" >
+              <img src="img/lunch7.jpg" style="height: 100px; width: 150px" />
+              <h3>Fried Rice</h3>
+            </div>
+            <div class="menu-item-price">$200.00</div>
+          </div>
+          <!-----------------------------item7 lunch----------------------->
+          <div class="menu-item"  data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="img/lunch8.jpg" style="height: 100px; width: 150px" />
+              <h3>Mushroom Curry</h3>
+            </div>
+            <div class="menu-item-price">$90.00</div>
+          </div>
+          <!-----------------------------item8 lunch----------------------->
+          <div class="menu-item"  data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="img/lunch9.jpg" style="height: 100px; width: 150px" />
+              <h3>Veg Biriyani</h3>
+            </div>
+            <div class="menu-item-price">$100.00</div>
+          </div>
+        </div>
+        <!-----------------------------item lunch end----------------------->
+      </div>
+      <!-----------------------------lunch tab close----------------------->
+
+      <!--///////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////-->
+
+      <!-----------------------------NV tab open----------------------->
+      <div class="row menu-tab-content" id="dinner">
+        <div class="row">
+          <!-----------------NV  item opens------------------------------>
+          <!-----------------------------item1 NV----------------------->
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title"  >
+              <img src="img/dinner1.jpg" style="height: 100px; width: 150px" />
+              <h3>Naatukodi pulusu  with Ragi Mudda/  Gaari</h3>
+            </div>
+            <div class="menu-item-price">$40.00</div>
+          </div>
+          <!-----------------------------item2 NV----------------------->
+          <div class="menu-item"  data-aos="fade-up-left">
+            <div class="menu-item-title" >
+              <img src="img/dinner3.jpg" style="height: 100px; width: 150px" />
+              <h3>Chicken Curry with Pulav</h3>
+            </div>
+            <div class="menu-item-price">$60.00</div>
+          </div>
+          <!-----------------------------item3 NV----------------------->
+          <div class="menu-item">
+            <div class="menu-item-title"  data-aos="fade-up-right">
+              <img src="img/dinner4.jpg" style="height: 100px; width: 150px" />
+              <h3>Chicken Fry/ Iguru</h3>
+            </div>
+            <div class="menu-item-price">$160.00</div>
+          </div>
+          <!-----------------------------item4 NV----------------------->
+          <div class="menu-item">
+            <div class="menu-item-title"  data-aos="fade-up-left">
+              <img src="img/dinner5.jpg" style="height: 100px; width: 150px" />
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, quod.</h3>
+            </div>
+            <div class="menu-item-price">$120.00</div>
+          </div>
+          <!-----------------------------item5 NV----------------------->
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title"  >
+              <img src="img/dinner6.jpg" style="height: 100px; width: 150px" />
+              <h3>Mutton Curry/ Iguru</h3>
+            </div>
+            <div class="menu-item-price">$180.00</div>
+          </div>
+          <!-----------------------------item6 NV----------------------->
+          <div class="menu-item"  data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="img/dinner7.jpg" style="height: 100px; width: 150px" />
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, quod.</h3>
+            </div>
+            <div class="menu-item-price">$200.00</div>
+          </div>
+          <!-----------------------------item7 NV----------------------->
+          <div class="menu-item"  data-aos="fade-up-right">
+            <div class="menu-item-title" >
+              <img src="img/dinner8.jpg" style="height: 100px; width: 150px" />
+              <h3>Koramenu Pulusu</h3>
+            </div>
+            <div class="menu-item-price">$90.00</div>
+          </div>
+          <!-----------------------------item8 NV----------------------->
+          <div class="menu-item"  data-aos="fade-up-left">
+            <div class="menu-item-title" >
+              <img src="img/dinner2.jpg" style="height: 100px; width: 150px" />
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, quod.</h3>
+            </div>
+            <div class="menu-item-price">$100.00</div>
+          </div>
+          <!-----------------------------item NV end----------------------->
+        </div>
+      </div>
+      <!-----------------------------dinner tab close----------------------->
+      <!--///////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////-->
+      <!-----------------------------drinks tab start----------------------->
+      <div class="row menu-tab-content" id="drinks">
+        <div class="row">
+          <!-----------------drink  item opens------------------------------>
+          <!-----------------------------item1 drink----------------------->
+          <div class="menu-item"  data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="img/drink1.jpg" style="height: 100px; width: 150px" />
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, quod.</h3>
+            </div>
+            <div class="menu-item-price">$40.00</div>
+          </div>
+          <!-----------------------------item2 drink----------------------->
+          <div class="menu-item"  data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="img/drink3.jpg" style="height: 100px; width: 150px" />
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, quod.</h3>
+            </div>
+            <div class="menu-item-price">$60.00</div>
+          </div>
+          <!-----------------------------item3 drink----------------------->
+          <div class="menu-item"  data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="img/drink4.jpg" style="height: 100px; width: 150px" />
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, quod.</h3>
+            </div>
+            <div class="menu-item-price">$160.00</div>
+          </div>
+          <!-----------------------------item4 drink----------------------->
+          <div class="menu-item"  data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="img/drink5.jpg" style="height: 100px; width: 150px" />
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, quod.</h3>
+            </div>
+            <div class="menu-item-price">$120.00</div>
+          </div>
+          <!-----------------------------item5 drink----------------------->
+          <div class="menu-item"  data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="img/drink6.jpg" style="height: 100px; width: 150px" />
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, quod.</h3>
+            </div>
+            <div class="menu-item-price">$180.00</div>
+          </div>
+          <!-----------------------------item6 drink----------------------->
+          <div class="menu-item"  data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="img/drink7.jpg" style="height: 100px; width: 150px" />
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, quod.</h3>
+            </div>
+            <div class="menu-item-price">$200.00</div>
+          </div>
+          <!-----------------------------item7 drink----------------------->
+          <div class="menu-item"  data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="img/drink8.jpg" style="height: 100px; width: 150px" />
+              <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, iure!</h3>
+            </div>
+            <div class="menu-item-price">$90.00</div>
+          </div>
+          <!-----------------------------item8 drink----------------------->
+          <div class="menu-item"  data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="img/drink2.jpg" style="height: 100px; width: 150px" />
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, quod.</h3>
+            </div>
+            <div class="menu-item-price">$100.00</div>
+          </div>
+          <!-----------------------------item drink end-------------------->
+        </div>
+      </div>
+      <!-----------------------------drinks tab end------------------------->
+
+      <!---////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////-->
+
+      <!-----------------------------dessert tab open------------------------->
+      <div class="row menu-tab-content" id="dessert">
+        <div class="row">
+          <!-----------------dessert  item opens------------------------------>
+          <!-----------------------------item1 dessert----------------------->
+          <div class="menu-item"  data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="img/dessert1.jpg" style="height: 100px; width: 150px" />
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, quod.</h3>
+            </div>
+            <div class="menu-item-price">$40.00</div>
+          </div>
+          <!-----------------------------item2 dessert----------------------->
+          <div class="menu-item"  data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="img/dessert3.jpg" style="height: 100px; width: 150px" />
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, quod.</h3>
+            </div>
+            <div class="menu-item-price">$60.00</div>
+          </div>
+          <!-----------------------------item3 dessert----------------------->
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="img/dessert4.jpg" style="height: 100px; width: 150px" />
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, quod.</h3>
+            </div>
+            <div class="menu-item-price">$160.00</div>
+          </div>
+          <!-----------------------------item4 dessert----------------------->
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="img/dessert5.jpg" style="height: 100px; width: 150px" />
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, quod.</h3>
+            </div>
+            <div class="menu-item-price">$120.00</div>
+          </div>
+          <!-----------------------------item5 dessert----------------------->
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="img/dessert6.jpg" style="height: 100px; width: 150px" />
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, quod.</h3>
+            </div>
+            <div class="menu-item-price">$180.00</div>
+          </div>
+          <!-----------------------------item6 dessert----------------------->
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="img/dessert7.jpg" style="height: 100px; width: 150px" />
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, quod.</h3>
+            </div>
+            <div class="menu-item-price">$200.00</div>
+          </div>
+          <!-----------------------------item7 dessert----------------------->
+          <div class="menu-item"data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="img/dessert8.jpg" style="height: 100px; width: 150px" />
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, quod.</h3>
+            </div>
+            <div class="menu-item-price">$90.00</div>
+          </div>
+          <!-----------------------------item8 dessert----------------------->
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="img/dessert2.jpg" style="height: 100px; width: 150px" />
+              <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, quod.</h3>
+            </div>
+            <div class="menu-item-price">$100.00</div>
+          </div>
+          <!-----------------------------item dessert end-------------------->
+        </div>
+      </div>
+      <!-----------------------------dessert tab end------------------------->
+    </div>
+  </section>
+  <!-----------------Menu Section End-------------->
+
+
+  <!--------------------Testimonial Section Start------------------>
+  <section class="testimonials-section sec-padding" id="testimonial">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2 data-title="testimonials" data-aos="fade-up">Some Feedback</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="testi-item" data-aos="flip-left" data-aos-duration="1000">
+          <div class="testi-author">
+            <div class="testi-author-name">
+              <h3>Geetha Sharvani</h3>
+              <span>Child Food specilist</span>
+            </div>
+            <div class="testi-author-img">
+              <img src="img/testimonial1.jpg" alt="testi-img">
+            </div>
+          </div>
+          <p>Maa attha chesindi kaabatti definite ga baaguntadi. 100 out of 100 aslu. Keka food. 
+            Kaani naaku inko icream kavali ani adigithey ivvaledu.</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="testi-item" data-aos="flip-left" data-aos-duration="1000">
+          <div class="testi-author">
+            <div class="testi-author-name">
+              <h3>Harshini</h3>
+              <span>Big food specilist</span>
+            </div>
+            <div class="testi-author-img">
+              <img src="img/testimonial2.jpg" alt="testi-img">
+            </div>
+          </div>
+          <p>3 Days ki Saripada ivale thinesa nenu. Super unni anni items. Kerchief lo kuda konni
+             initiki teskelthunna ippudu.</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+
+
+
+        <div class="testi-item" data-aos="flip-left" data-aos-duration="1000">
+          <div class="testi-author">
+            <div class="testi-author-name">
+              <h3>Vamsi Valluru</h3>
+              <span>Foodie</span>
+            </div>
+            <div class="testi-author-img">
+              <img src="img/testimonial3.jpg" alt="testi-img">
+            </div>
+          </div>
+          <p>Home food ni evaru kaadantaru. Bayataku velli undevallaki telusthadi baadha..</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+
+
+
+        <div class="testi-item" data-aos="flip-right" data-aos-duration="1000">
+          <div class="testi-author">
+            <div class="testi-author-name">
+              <h3>Jeyansh Sai</h3>
+              <span>Exotic food specilist</span>
+            </div>
+            <div class="testi-author-img">
+              <img src="img/testimonial4.jpg" alt="testi-img">
+            </div>
+          </div>
+          <p>Kummifying. Naaku nachinavi anni unnai. Super unnai</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+
+        <div class="testi-item" data-aos="flip-right" data-aos-duration="1000">
+          <div class="testi-author">
+            <div class="testi-author-name">
+              <h3>Sadnika</h3>
+              <span>All food specilist</span>
+            </div>
+            <div class="testi-author-img">
+              <img src="img/testimonial5.jpg" alt="testi-img">
+            </div>
+          </div>
+          <p>Only South Indian food ye undi, but bagundi. Anni include chesthe better</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+
+
+        <div class="testi-item" data-aos="flip-right" data-aos-duration="1000">
+          <div class="testi-author">
+            <div class="testi-author-name">
+              <h3>Danaiah Valluru</h3>
+              <span>Senior Customer</span>
+            </div>
+            <div class="testi-author-img">
+              <img src="img/testimonial6.jpg" alt="testi-img">
+            </div>
+          </div>
+          <p>Nenu roju ikkade thintanu. Everything is top-notch</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!--------------------Testimonial Section End-------------------->
+
+  <!------------------Teams Section Start-------------------------->
+  <section class="team-section sec-padding" id="team">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="section-title">
+          <h2 data-title="Team" data-aos="fade-up">Our Chefs</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="team-item" data-aos="zoom-out-right" data-aos-duration="1000">
+          <img src="img/chef5.jpg" alt="">
+          <div class="team-item-info">
+            <h2>Ramkumar Valluru</h2>
+            <p>Master Chef</p>
+          </div>
+        </div>
+
+        <div class="team-item" data-aos="zoom-out" data-aos-duration="1000">
+          <img src="img/chef1.jpg" alt="">
+          <div class="team-item-info">
+            <h2>Bhavyasri  Valluru</h2>
+            <p>Junior Chef</p>
+          </div>
+        </div>
+
+        <div class="team-item" data-aos="zoom-out-left" data-aos-duration="1000">
+          <img src="img/chef4.jpg" alt="">
+          <div class="team-item-info">
+            <h2>Vijaya Valluru</h2>
+            <p>Head Chef</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------------------Teams Section End-------------------------->
+
+  <!-------------------Footer  Start-------------------------->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-item" data-aos="fade-up" data-aos-duration="1000" >
+          <h3>Our Location</h3>
+          <p>Valluru's Restaurant,<br> Valluru Street,<br>near TTD Marriage Hall,<br>Gudlavalleru,<br>AP,India-400308
+          </p>
+        </div>
+        <div class="footer-item" data-aos="fade-up" data-aos-duration="1000">
+          <h3>Opening Hours</h3>
+          <p>Monday to Sunday<br>9:00AM - 9:30PM</p>
+        </div>
+        <div class="footer-item" data-aos="fade-up" data-aos-duration="1000">
+          <h3>Contact Us</h3>
+          <p>+91 7007560607</p>
+          <p> valluruvamsi1@gmail.com</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+            <a href="#"><i class="fas fa-envelope-open-text"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="copyright" >
+          &copy; 2024 - Designed By  Vamsi Valluru
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-------------------Footer  End---------------------------->
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+
+</html>
